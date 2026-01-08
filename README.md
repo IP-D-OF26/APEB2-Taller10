@@ -1,5 +1,7 @@
 # Taller10
 
+## Construcción de programas usando módulos y funciones
+
 * En la asignatura ***Fundamentos computacionales***, resolvió *(análisis, diseño de algoritmos, flujogramas, pruebas de escritorio, etc.)*, algunos problemas de forma modularizada. El objetivo a continuación es codificar similares algoritmos, pero en el lenguaje de programación de alto nivel **JAVA**. 
 * Programar/codificar en el lenguaje de alto nivel Java *(en el IDE NetBeans)*, sus soluciones a cada uno de los problemas listados a continuación dadas las siguientes instrucciones: 
     1. Clone este repositorio en su **PC** local `git clone URL_del_repo` 
@@ -26,8 +28,7 @@ public class Ejercicio01_ProcesarMatrices {
  */
  ```
 
-## Construcción de programas usando módulos y funciones
-
+---
 ### Problema 01
 ---
 Generar los procedimientos y/o funciones que impriman los valor pares, impares y el promedio de un arreglo bidimensional. El (los) procedimiento(s) o método(s) deben ser invocados desde el método principal (quien es el único responsable de gestionar las entradas/salidas); además el método debe recibir como parámetro un arreglo bidimensional.
