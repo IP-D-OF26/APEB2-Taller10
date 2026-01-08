@@ -1,39 +1,48 @@
-# Taller 11
+# Taller10
+
+* En la asignatura ***Fundamentos computacionales***, resolvió *(análisis, diseño de algoritmos, flujogramas, pruebas de escritorio, etc.)*, algunos problemas de forma modularizada. El objetivo a continuación es codificar similares algoritmos, pero en el lenguaje de programación de alto nivel **JAVA**. 
+* Programar/codificar en el lenguaje de alto nivel Java *(en el IDE NetBeans)*, sus soluciones a cada uno de los problemas listados a continuación dadas las siguientes instrucciones: 
+    1. Clone este repositorio en su **PC** local `git clone URL_del_repo` 
+    2. En su ***IDE*** cree un nuevo proyecto de tipo ***Java Application*** con el siguiente nombre: ***Proyect-APEB2-Taller10*** eligiendo como localización del proyecto, el repositorio *(carpeta)* clonada localmente en el *paso anterior*.
+    3. Para cada problema, genere una clase/programa java independiente pero dentro del único proyecto (*Java App* creado en el *paso anterior*). No olvide nombrar cada clase con el número del problema y un nombre representativo de la solución. Ejemplo: ***Ejercicio01_ProcesarMatrices***
+    4. Finalizado el taller *(o cada ejercicio)*, sincronice los cambios de su **PC** local, a este repositorio remoto de **GitHub**, con los comandos: `git add .` `git commit -m "Mensaje de la versión"` `git push`
+* Verifique sus soluciones con las técnicas de compilación, ejecución y depurado de programas.
+* Documente las soluciones con los bloques: (1.-) ***Documentación del problema***, y (2.-) ***Evidencia del funcionamiento y resultados***. Para ello, al inicio y final como parte de la codificación (en comentarios /** ), copiar y pegar el enunciado del problema, y al final, los resultados obtenidos de consola **RUN**. Ejemplo: 
+
+```java
+/**
+ * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
+ * @author NombreAutor
+ * @version 1.0
+ */
+
+public class Ejercicio01_ProcesarMatrices {
+    //AQUÍ AGREGUE TODO SU CÓDIGO...
+}
+
+/***
+ * EVIDENCIA DEL RUN:
+ * Pegue aquí la evidencia de la ejecución del .java
+ */
+ ```
 
 ## Construcción de programas usando módulos y funciones
 
-* Leer detenidamente cada problemática propuesta.
-* Programe/codifíque con el lenguaje de alto nivel Java _**(IDE NetBeans)**_, sus soluciones a cada uno de los problemas listados a continuación. 
-* Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. _(NO CREE VARIOS PROYECTOS, ni los empaquete, por favor, agregar los .java en el paquete por default)_. No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
-* No olvide la eficiencia en sus soluciones, limpieza del código, identación correcta, comenterias en procesos complejos, etc. lo cual para el 2do.Bim. no es opcional. 
-* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas. Y con el objetivo de evidenciar los resultados, por favor, dentro de la misma clase _(al final de todo el código)_, con los caracteres de bloque de comentarios, copie y pegue los resultados obtenidos en su solución, ejemplo: 
-
-FORMATO:
-```
-/* BLOQUE DE COMENTARIOS */
-```
-
-EJEMPLO:
-```
-/* 
-NOMBRES | ACD  | APE | AA  | PROMEDIOS
-Juan S.  | 5,85   | 6,70   | 6,83   | 6,44   
-Juan D.  | 0,92   | 3,44   | 6,55   | 3,49   
-Ricardo  | 7,43   | 9,50   | 6,96   | 8,01   
-Carlos   | 5,38   | 6,24   | 9,22   | 6,84    
- */ 
-```
-
 ### Problema 01
+---
 Generar los procedimientos y/o funciones que impriman los valor pares, impares y el promedio de un arreglo bidimensional. El (los) procedimiento(s) o método(s) deben ser invocados desde el método principal (quien es el único responsable de gestionar las entradas/salidas); además el método debe recibir como parámetro un arreglo bidimensional.
 
+---
 ### Problema 02
+---
 * Generar una solución que implemente 3 procedimientos. Que permitan calcular el área de un cuadrado, área de un triángulo y área de un rectángulo. Cada procedimiento/función debe recibir los datos necesarios y generar el valor correspondiente. Se debe invocar a los procedimientos desde un método principal; Si el usuario ingresa 1 se llama al procedimiento obtenerAreaCuadrado; 2 se llama al procedimiento obtenerAreaTriangulo; 3 se llama al procedimiento obtenerAreaCuadrado.
 	* El área del cuadrado es igual a lado x lado x lado x lado
 	* El área del triángulo es igual a (base x altura)/2
 	* El área del rectángulo es igual a base x altura
 
+---
 ### Problema 03
+---
 * Generar una función que tenga 4 parámetros de tipo decimal y devuelva el promedio cualitativo de los parámetros.
 Si el promedio es:
 De 0 a 5 el promedio cualitativo es Regular
@@ -42,8 +51,9 @@ De 8.1 a 9 el promedio es Muy Bueno
 De 9.1 a 10 el promedio es Sobresaliente.
 A la función se la debe llamar desde un método principal. Los parámetros necesarios para llamar a la función, deben ser ingresados solicitados al usuario. 
 
-
+---
 ### Problema 04
+---
 * Generar un procedimiento para calcular el valor de la planilla de luz y otro procedimiento para calcular el valor del predio de un bien inmueble.
 Cada procedimiento debe tener 2 parámetros (tipo cadena para nombre del cliente, cédula del cliente). 
 
@@ -56,7 +66,8 @@ Cliente Ana Contreras con cédula 1100112233 tiene un bien inmueble valorado en 
 
 En el método principal; si el usuario ingresa 1 se llama al procedimiento calcularValorLuz; 2 se  llama al procedimiento calcularPredio. Los datos que se necesita en cada procedimiento se los debe ingresar por teclado.
 
-
+---
 ### Problema 05
+---
 Generar las funciones/métodos que devuelvan las suma, resta y multiplicación de un arreglo bidimensional cuadrado; mismo que se lo recibe como parámetro.
 
