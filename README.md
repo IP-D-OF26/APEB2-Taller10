@@ -35,7 +35,7 @@ Generar los procedimientos y/o funciones que impriman los valor pares, impares y
 ---
 ### Problema 02
 ---
-* Generar una solución que implemente 3 procedimientos. Que permitan calcular el área de un cuadrado, área de un triángulo y área de un rectángulo. Cada procedimiento/función debe recibir los datos necesarios y generar el valor correspondiente. Se debe invocar a los procedimientos desde un método principal; Si el usuario ingresa 1 se llama al procedimiento obtenerAreaCuadrado; 2 se llama al procedimiento obtenerAreaTriangulo; 3 se llama al procedimiento obtenerAreaCuadrado.
+Generar una solución que implemente 3 procedimientos. Que permitan calcular el área de un cuadrado, área de un triángulo y área de un rectángulo. Cada procedimiento/función debe recibir los datos necesarios y generar el valor correspondiente. Se debe invocar a los procedimientos desde un método principal; Si el usuario ingresa 1 se llama al procedimiento obtenerAreaCuadrado; 2 se llama al procedimiento obtenerAreaTriangulo; 3 se llama al procedimiento obtenerAreaCuadrado.
 	* El área del cuadrado es igual a lado x lado x lado x lado
 	* El área del triángulo es igual a (base x altura)/2
 	* El área del rectángulo es igual a base x altura
@@ -43,7 +43,7 @@ Generar los procedimientos y/o funciones que impriman los valor pares, impares y
 ---
 ### Problema 03
 ---
-* Generar una función que tenga 4 parámetros de tipo decimal y devuelva el promedio cualitativo de los parámetros.
+Generar una función que tenga 4 parámetros de tipo decimal y devuelva el promedio cualitativo de los parámetros.
 Si el promedio es:
 De 0 a 5 el promedio cualitativo es Regular
 De 5.1 a 8 el promedio es Bueno
@@ -54,7 +54,7 @@ A la función se la debe llamar desde un método principal. Los parámetros nece
 ---
 ### Problema 04
 ---
-* Generar un procedimiento para calcular el valor de la planilla de luz y otro procedimiento para calcular el valor del predio de un bien inmueble.
+Generar un procedimiento para calcular el valor de la planilla de luz y otro procedimiento para calcular el valor del predio de un bien inmueble.
 Cada procedimiento debe tener 2 parámetros (tipo cadena para nombre del cliente, cédula del cliente). 
 
 En el procedimiento de planilla de luz se debe pedir los siguiente datos valor del kilowatio y el número de kilowatios del mes. Y se genera en pantalla el siguiente reporte: 
